@@ -12,6 +12,9 @@ const Navigation = () => {
           <Link className="px-4 py-2 cursor-pointer text-2xl" to={'/shop'}>
             SHOP
           </Link>
+          <Link className="px-4 py-2 cursor-pointer text-2xl" to={'/sign-in'}>
+            SIGN IN
+          </Link>
         </div>
       </div>
       <Outlet />
